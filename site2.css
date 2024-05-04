@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#image1{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 101%;
+}
+
+#image2{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 101%;
+}
+
+#image3{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 101%;
+}
+
+a{
+    margin-top: -180px;
+    margin-left: 40px;
+}
+
+@media only screen and (max-width:500px) {
+    .grid{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
